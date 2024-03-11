@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    }
+
+    
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    nav a {
+        color: black;
+        text-decoration: none;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+        font-size: 1.2rem;
+        padding-right: 1.875rem;
+        font-weight: 600;
+      }
+      
+      nav a:hover {
+       color: #6dcf28;
+      }
+
+      .logo{
+    width: 100%;
+    padding-left: 1.875rem;
+    }
+
+    .logo a{
+        font-size: 2rem;
+        font-family: "Black Ops One", system-ui;
+        }
+    
+    .hero{
+        width: 100%;
+        min-height: 40.5rem;
+        background-image: linear-gradient(to bottom, rgba(207, 207, 207, 0.114), rgba(22, 21, 22, 0.818)),
+        url(/images/Jets/hero/1136120.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        }
+    
+    .hero-text{
+        align-self: flex-end;
+        padding: 0 0 3.75rem 2.5rem;
+
+        
+        
+    }
+    .hero h1{
+        font-size: 3rem;
+        font-weight: bold;
+
+    }
+
+    .hero h3{
+        font-weight: 200;
+    }
+    .hero h1, h3{
+        color: white;
+        text-align: left;
+    }
+
+    .title-text{
+        padding: 2.5rem;
+        background-color: #958C8D;
+    }
+
+    .title-text h1{
+        color: #fff;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+
+
+#potrait{
+    background: linear-gradient(to bottom, rgba(92, 78, 78, 0.631), rgba(22, 21, 22, 0.818));
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.875rem;
+    max-width: 100%;
+    padding: 3.125rem;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+#details{
+    width: 50%;
+    align-items: center;
+    list-style: none;
+    }
+
+.wrapper{
+background-color: white;
+border-radius: none;
+height: auto;
+width: 100%;
+text-align: left;
+padding-bottom: 30px;
+}
+
+
+.wrapper h2{
+    padding: 0rem .9375rem;
+    padding-top: 2rem;
+}
+
+
+.wrapper p{
+    font-size: .9375rem;
+    padding: .9375rem;
+}
+
+.wrapper img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.wrapper a{
+    color: black;
+    padding: 20px 20px;
+    transition: background-color 0.3s ease;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+
+.wrapper a:hover{
+    color: #6dcf28;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    background: #000;
+    font-weight: 300;
+    color: #fff;
+    }
+
+
+
+
+    @media only screen and (max-width: 900px) {
+        
+
+        #potrait{
+            background: linear-gradient(to bottom, rgba(92, 78, 78, 0.631), rgba(22, 21, 22, 0.818));
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 1.875rem;
+            max-width: 100%;
+            padding: 3.125rem;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            }
+
+            
+      }
+
+
+    @media only screen and (max-width: 600px) {
+        
+
+        #potrait{
+            background: linear-gradient(to bottom, rgba(92, 78, 78, 0.631), rgba(22, 21, 22, 0.818));
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 1.875rem;
+            max-width: 100%;
+            padding: 3.125rem;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            }
+
+            
+      }
+
